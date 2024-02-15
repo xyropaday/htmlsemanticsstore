@@ -2,22 +2,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(214, 223, 223);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(15, 199, 168, 0.1);
 }
 
-header {
+    section{
+        border-style: double;
+        padding: 100px;
+        border-radius: 10px;
+        background-color: #424545;
+        margin-bottom: 20px;
+        text-align: center;
     
-    color: #000000;
-    padding: 30px;
+}
+.product{
+    border-style: double;
+    text-align: center;
+}
+.con{
+    background-color: #424545;
+    text-align: center;
+}
+footer{
+    background-color: #424545;
+    text-align: center;
 }
 
 
+h1, h2{
+    text-align: center;
+}
+header {
+    border-style: double;
+    color: #000000;
+    padding: 10px;
+}
 
 nav ul li {
+    text-align: center;
     display: inline;
     margin-right: 30px;
-}
-
-
 
 
 
